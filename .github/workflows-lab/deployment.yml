@@ -3,6 +3,6 @@ name: Deployment test (lab)
 jobs:
   release_test:
     runs-on: ubuntu-latest
-    name: "Deployment test (lab)":
+    name: "Deployment test (lab)"
     steps:
       - run: ls
