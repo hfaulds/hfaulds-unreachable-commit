@@ -1,7 +1,8 @@
 on: deployment
-name: Release test
+name: Deployment test
 jobs:
   release_test:
     runs-on: ubuntu-latest
+    name: "Deployment test"
     steps:
       - run: ls
